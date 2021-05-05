@@ -23,7 +23,7 @@ jobs:
 
       - name: Build
         run: |
-          make all
+          make deb
 
       - name: Copy artifacts
         run: mkdir archives && cp ../sophomorix*.* ./archives
