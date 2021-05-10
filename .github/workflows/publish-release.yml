@@ -5,7 +5,7 @@ on:
 
 jobs:
   publish_latest_release_to_package_server:
-    name: Publish latest release to package server
+    name: Publish latest release to package server.
     runs-on: ubuntu-18.04
     steps:
       - name: Download assets from latest release
